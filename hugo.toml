@@ -212,14 +212,14 @@ disableHugoGeneratorInject = false
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  
   # Addon: Social icons
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-  #
-  [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/"
-
-  [[params.social]]
-    name = "email"
-    url  = "mailto:nobody@example.com"
+  
+#  [[params.social]]
+#    name = "twitter"
+#    url  = "https://twitter.com/"
+#
+#  [[params.social]]
+#    name = "email"
+#    url  = "mailto:nobody@example.com"
 
   [[params.social]]
     name = "github"
@@ -229,16 +229,16 @@ disableHugoGeneratorInject = false
     name = "linkedin"
     url  = "https://www.linkedin.com/in/douglascf12"
 
-  [[params.social]]
-    name = "stackoverflow"
-    url  = "https://www.stackoverflow.com/"
+#  [[params.social]]
+#    name = "buymeacoffee"
+#    url  = "https://www.stackoverflow.com/"
 
 [languages]
   [languages.en]
     weight    = 2
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   [languages.en.params]
-    subtitle  = "Hello Friend NG Theme"
+    subtitle  = "Um blog sobre Swift"
 
 #  [languages.fr]
 #    weight    = 3
@@ -254,4 +254,4 @@ disableHugoGeneratorInject = false
   [[menu.main]]
     identifier = "tutoriais"
     name       = "Tutoriais"
-    url        = "posts/"
+    url        = "tutoriais/"
